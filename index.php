@@ -16,14 +16,16 @@
     <main id="main">
         <div class="adicionar">
             <h2>Adicione uma tarefa</h2>
-            <a id="adici" href="#"><i class="fas fa-plus"></i></a>
-        </div>
-        <div class="tarefa adicionar">
-            <p>FAZER TAL COISA</p>
-            <input type="checkbox" name="concluida" id="check">
+            <a id="adici"><i class="fas fa-plus"></i></a>
         </div>
     </main>
-
+    <div class="modal">
+        <h1>Crie seu lembrete:</h1>
+       
+        <input type="text" name="nome" id="nome" required>
+        <input type="submit" id="criar" value="Criar">
+        
+    </div>
     <script src="js/all.min.js"></script>
     <script src="js/index.js"></script>
 </body>
